@@ -1,10 +1,12 @@
 let btn = document.querySelector('.btn');
 
-let x = 1;
 	
 function something(){
-  alert(x);
-  x++;
+
+	var x = window.localStorage.getItem('aaa');
+
+	window.localStorage.setItem('aaa', 555);
+ 	alert(x);
 }
 
 btn.onclick = something;
