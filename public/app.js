@@ -12,4 +12,6 @@ function something(){
  	alert(x);
 }
 
-btn.onclick = something;
+function add_to_cart(){
+	alert('Hello');
+}
