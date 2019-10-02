@@ -18,4 +18,9 @@ get '/about' do
 	erb :about
 end
 
+get '/products' do
+	@product = Product.all 
+	erb :products
+end
+
  

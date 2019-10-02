@@ -1,0 +1,16 @@
+<div class="container">
+	<div class="row">
+		<% @product.each do |product|%>
+			<div class="col-lg-4">
+				<div class="product">
+						<%= product.title%>
+						<%= product.path_to_image%>
+
+				</div>
+				<br>
+				<br>
+			</div>
+			<hr>
+		<% end %>
+	</div>
+</div>
