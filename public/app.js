@@ -19,13 +19,6 @@ function add_to_cart(id){
 	update_orders_input();
 }
 
-// function howMuchInCart(){
-// 	let count = 0;
-// 	for (let i = 0; i < localStorage.length; i++){
-
-// 	}
-// }
-
 function cart_get_number_of_items(){
 	let cnt = 0;
 	for(let i = 0; i < window.localStorage.length; i++){
