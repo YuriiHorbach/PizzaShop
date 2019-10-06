@@ -14,6 +14,14 @@ loop do
 	hh[id] = x
 
 	puts hh.inspect
+
+	total = 0
+	hh.each do |key, value|
+		total += value
+	end
+	
+	puts "Total items in cart: #{total}"
+
 	puts '============================='
 	                          
 end
