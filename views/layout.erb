@@ -42,7 +42,11 @@
 			  </div>
 			    <ul class="nav justify-content-end">
 			    	<li>
-			    		<a href="#">Cart (...)</a>
+			    		<form action="/cart" method="POST">
+			    			<input type="text" name="orders">
+			    			<input type="submit" class="btn btn-primary btn-lg" value="Cart (...)">
+			    		</form>
+			    		<!-- <a href="#">Cart (...)</a> -->
 			    	</li>
 			    </ul>
 			</nav>
